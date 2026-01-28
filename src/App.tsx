@@ -88,9 +88,6 @@ export default function App() {
     <div className="container">
       <header className="header">
         <h1>App móvil (multiplataforma) – Tareas/Notas CRUD</h1>
-        <p className="muted">
-          React + TypeScript + HTML5 + CSS3 · Eventos: onChange, onSubmit, onClick · LocalStorage
-        </p>
       </header>
 
       <main className="grid">
