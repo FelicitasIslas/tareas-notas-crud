@@ -1,0 +1,93 @@
+:root { font-family: system-ui, Arial, sans-serif; }
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #f6f7fb;
+  color: #111;
+}
+
+.container {
+  max-width: 460px; /* estilo “móvil” */
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.header {
+  margin: 12px 0 16px;
+  padding: 14px 16px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.06);
+}
+
+.header h1 { margin: 0 0 6px; font-size: 20px; }
+.header p { margin: 0; }
+
+.grid { display: grid; gap: 14px; }
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.06);
+}
+
+.cardHeader h2 { margin: 0 0 6px; font-size: 18px; }
+.muted { color: #666; font-size: 13px; }
+.hint { display: block; margin-top: 6px; color: #777; font-size: 12px; }
+
+.label { display: block; margin-top: 12px; font-size: 13px; }
+.input, .textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  outline: none;
+  margin-top: 6px;
+  font-size: 14px;
+}
+.input:focus, .textarea:focus { border-color: #999; }
+
+.row { display: flex; gap: 10px; margin-top: 12px; }
+.between { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+
+.btn {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+.primary { border-color: #222; }
+.danger { border-color: #c62828; color: #c62828; }
+
+.error {
+  margin-top: 10px;
+  padding: 10px 12px;
+  background: #ffe7e7;
+  border: 1px solid #ffc2c2;
+  border-radius: 12px;
+  color: #8a1f1f;
+  font-size: 13px;
+}
+
+.list { list-style: none; padding: 0; margin: 14px 0 0; display: grid; gap: 12px; }
+
+.item {
+  border: 1px solid #eee;
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.item.done { opacity: .75; }
+
+.check { display: flex; align-items: center; gap: 10px; }
+.title { font-weight: 800; }
+.note { margin: 10px 0 0; color: #333; }
+.meta { margin-top: 8px; display: grid; gap: 4px; }
+
+.empty { margin: 12px 0 0; }
