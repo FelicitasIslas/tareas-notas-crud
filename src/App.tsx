@@ -87,7 +87,7 @@ export default function App() {
   return (
     <div className="container">
       <header className="header">
-        <h1>App móvil (multiplataforma) – Tareas/Notas CRUD</h1>
+        <h1>App (multiplataforma) – Tareas/Notas</h1>
       </header>
 
       <main className="grid">
